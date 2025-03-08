@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>8 Марта - Тепло твоего сердца 🌌</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #1A1B2F, #2E3B4E, #4A5568);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 20px;
+            min-height: 100vh;
+            color: #FFF;
+            animation: gradientFlow 20s ease infinite;
+        }
+
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background: rgba(26, 27, 47, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 600px;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(118, 147, 189, 0.3);
+            box-shadow: 0 0 30px rgba(18, 22, 33, 0.6);
+        }
+
+        .photo-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto 25px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            filter: grayscale(20%);
+        }
+
+        .photo-container:hover {
+            transform: translateY(-5px);
+            filter: grayscale(0%);
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #D1E8FF;
+            font-weight: 300;
+            text-shadow: 0 2px 8px rgba(209, 232, 255, 0.2);
+            margin: 20px 0;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #CBD7E6;
+            line-height: 1.7;
+            font-size: 1.1em;
+            margin: 25px 0;
+            font-weight: 300;
+        }
+
+        .lyric-text {
+            font-style: italic;
+            opacity: 0.9;
+            padding: 15px;
+            border-left: 3px solid #7693BD;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 20px;
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="photo-container">
+            <!-- Замените ссылку на свою фотографию -->
+            <img src="Снимок экрана 2025-03-08 140153.png" alt="Теплый момент">
+        </div>
+
+        <h1>🌠 С 8 Марта, родная</h1>
+        
+        <div class="lyric-text">
+            "Ты - тихий свет в моём окне,<br>
+            Мелодия, что греет в тишине.<br>
+            Спасибо за твоё тепло,<br>
+            Что наполняет мир добром..."
+        </div>
+
+        <p>
+            В этот весенний день хочу сказать,<br>
+            Что ценю твою мудрость и нежность.<br>
+            Пусть мир отвечает тебе взаимностью,<br>
+            А каждый новый день дарит вдохновение.<br><br>
+            
+            Ты заслуживаешь:<br>
+            🌸 Спокойствия души<br>
+            🌸 Искренних чувств<br>
+            🌸 Творческого полёта<br>
+            🌸 И моментов настоящего счастья
+        </p>
+
+        <div style="margin: 30px auto; max-width: 500px;">
+            <iframe style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/41FpRx3kNY6ZRFYhvLaQNC?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
